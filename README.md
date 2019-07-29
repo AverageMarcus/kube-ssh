@@ -5,7 +5,7 @@ Get shell access to a Kubernetes host instances. The pod will be removed upon ex
 ## Usage
 
 ```shell
-➜ ./ssh.sh
+➜ sh -c "$(curl -sSL https://raw.githubusercontent.com/AverageMarcus/kube-ssh/master/ssh.sh)"
 [0] - ip-10-189-21-146.eu-west-1.compute.internal
 [1] - ip-10-189-21-234.eu-west-1.compute.internal
 [2] - ip-10-189-21-96.eu-west-1.compute.internal
