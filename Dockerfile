@@ -1,4 +1,4 @@
-FROM --platform=${BUILDPLATFORM:-linux/amd64} debian:buster as builder
+FROM --platform=${TARGETPLATFORM:-linux/amd64} debian:buster as builder
 
 ARG TARGETPLATFORM
 ARG BUILDPLATFORM
