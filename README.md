@@ -14,3 +14,7 @@ Which node would you like to connect to? 1
 If you don't see a command prompt, try pressing enter.
 [root@ip-10-189-21-234 ~]#
 ```
+
+### fzf
+
+If you have [fzf](https://github.com/junegunn/fzf) available on your PATH it will be used instead of needing to enter the number of the node you'd like to connect to.
