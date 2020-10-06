@@ -1,6 +1,6 @@
 # kube-ssh
 
-Get shell access to a Kubernetes host instances. The pod will be removed upon exiting.
+Get shell access to a Kubernetes host instance. The pod will be removed upon exiting.
 
 ## Usage
 
